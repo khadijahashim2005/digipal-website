@@ -1,0 +1,94 @@
+{% extends 'core/base.html' %}
+{% block title %}Talent Growth | Digipal{% endblock %}
+{% block content %}
+
+<!-- Header Section -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3">Smarter Hiring with Digipal</h1>
+    <p class="lead">Move beyond CVs. Hire based on potential with verified aptitude and personality-based matching powered by Sina assessments.</p>
+  </div>
+</section>
+
+<!-- Process Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Talent Matching Process</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="display-6 text-primary mb-3">1</div>
+            <p class="card-text">Candidate takes Sina aptitude test</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="display-6 text-primary mb-3">2</div>
+            <p class="card-text">Behavioral + skills profile generated</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="display-6 text-primary mb-3">3</div>
+            <p class="card-text">Employers filter & receive top matches</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="display-6 text-primary mb-3">4</div>
+            <p class="card-text">Jobseekers get career-aligned offers</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Dual CTA Section -->
+<section class="py-5 bg-primary text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Who We Help</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="p-4 bg-white text-dark rounded shadow-sm h-100">
+          <h5>For Employers</h5>
+          <ul class="list-unstyled mt-3">
+            <li>✔ Pre-assessed candidate profiles</li>
+            <li>✔ Filter by career clusters, aptitudes & growth potential</li>
+            <li>✔ Data-backed hiring confidence</li>
+          </ul>
+          <a href="/contact/" class="btn btn-primary mt-3">Request Employer Access</a>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 bg-white text-dark rounded shadow-sm h-100">
+          <h5>For Jobseekers</h5>
+          <ul class="list-unstyled mt-3">
+            <li>✔ Take Sina’s assessment once</li>
+            <li>✔ Get career-aligned matches</li>
+            <li>✔ Discover roles where you’ll thrive</li>
+          </ul>
+          <a href="/contact/" class="btn btn-outline-primary mt-3">Take the Assessment</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}

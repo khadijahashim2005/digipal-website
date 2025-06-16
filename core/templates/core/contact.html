@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% block title %}Contact | Digipal{% endblock %}
+{% block content %}
+
+<h2 class="text-center my-5">Get In Touch</h2>
+
+<form class="mx-auto" style="max-width: 600px;">
+  <div class="mb-3">
+    <label for="name" class="form-label">Your Name</label>
+    <input type="text" class="form-control" id="name" placeholder="John Doe">
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Your Email</label>
+    <input type="email" class="form-control" id="email" placeholder="john@example.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="message" class="form-label">Your Message</label>
+    <textarea class="form-control" id="message" rows="4"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary w-100">Submit</button>
+</form>
+
+{% endblock %}
